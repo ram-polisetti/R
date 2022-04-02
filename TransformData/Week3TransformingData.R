@@ -12,3 +12,7 @@ employee <- data.frame(id, name, job_title)
 
 employee
 
+library('tidyr')
+library('dplyr')
+separate(employee, name, into = c("first_name", "last_name"), sep = " ")
+

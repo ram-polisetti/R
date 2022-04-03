@@ -14,7 +14,17 @@ employee
 
 library('tidyr')
 library('dplyr')
-new_employee <- separate(employee, name, into = c("first_name", "last_name"), sep = " ")
+new_employee <- separate(employee, name, into = c("first_name", "last_name"), sep = " ") # nolint
 
 new_employee
 unite(new_employee, "full_name", first_name, last_name, sep = " ")
+
+install.packages("palmerpenguins")
+library(palmerpenguins)
+View(penguins)
+summary(penguins)
+
+penguins  %>% 
+  mutate(body_mass_kg = body_mass_g/1000, flipper_length_m = flipper_length_mm/1000)
+
+

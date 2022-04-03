@@ -14,5 +14,7 @@ employee
 
 library('tidyr')
 library('dplyr')
-separate(employee, name, into = c("first_name", "last_name"), sep = " ")
+new_employee <- separate(employee, name, into = c("first_name", "last_name"), sep = " ")
 
+new_employee
+unite(new_employee, "full_name", first_name, last_name, sep = " ")

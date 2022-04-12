@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "33e4e7599724d675",
+    "id": "7463a523ff3431a7",
     "type": "split",
     "children": [
       {
-        "id": "627ea339ac8c4c46",
+        "id": "27013aaf44eeda28",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "da07d28108d54f5e",
+    "id": "faa368fd9441cfa3",
     "type": "split",
     "children": [
       {
-        "id": "ed47c3b3dc6bae0c",
+        "id": "5e0ee1d5551315e5",
         "type": "tabs",
         "children": [
           {
-            "id": "c31a12b705787867",
+            "id": "c0f6274a378a1bbb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "df3a86c45a48a2d6",
+            "id": "4682c519f2f249e8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -53,18 +53,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "156aff9a254c4a08",
+    "id": "bd2a2237217bf2b4",
     "type": "split",
     "children": [
       {
-        "id": "e6c90584a9a1f259",
+        "id": "2866b4288806a809",
         "type": "tabs",
         "children": [
           {
-            "id": "af5c2ecbaa5f95fc",
+            "id": "86cd8212ce8bd973",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -87,8 +88,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "627ea339ac8c4c46",
+  "active": "27013aaf44eeda28",
   "lastOpenFiles": [
-    "README.md"
+    "README.md",
+    "bodyMass_flipperLength_sizeSpecies.jpeg"
   ]
 }

@@ -3,7 +3,7 @@
 ```
 ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))	
 ```
-![[billLength_billDepth.jpeg]]
+![billLength_billDepth.jpeg](billLength_billDepth.jpeg)
 - Color
 ```
 ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color = species))

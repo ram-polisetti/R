@@ -9,6 +9,7 @@ ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = bo
 ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g, color = species))
 ```
 ![bodyMass_flipperLength_colorSpecies](Graphs/bodyMass_flipperLength_colorSpecies.jpeg)
+
 **If we want to change the appearance of our overall plot without regard to specific variables, we write code oustside og the aes function**
 ```
 ggplot(data = penguins) + geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g), color = 'purple')
